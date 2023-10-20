@@ -99,7 +99,7 @@
 
   
         let register_request = await fetch(
-          "http://localhost:8080/mail/sendotp", 
+          "https://beautify-backend-yr50.onrender.com/mail/sendotp", 
           {
             method: "POST",
             headers: {
@@ -177,7 +177,7 @@ async function func(event) {
 
 
 
-    let register_request = await fetch("http://localhost:8080/login/login", {
+    let register_request = await fetch("https://beautify-backend-yr50.onrender.com/login/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
