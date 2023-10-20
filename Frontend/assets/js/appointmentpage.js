@@ -148,7 +148,7 @@ cancelOrder.addEventListener("click",()=>{
 
   async function sentMail(){
     try {
-      let res = await fetch("https://beautify-backend-yr50.onrender.com/book/appo", {
+      let res = await fetch("https://salon-prgm.onrender.com/book/appo", {
           method: 'POST',
           headers: {
               'content-type': 'application/json',

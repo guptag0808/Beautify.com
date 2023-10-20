@@ -5,12 +5,12 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Sign up</title>
-	<link rel="stylesheet" href="../Frontend/assets/css/signup.css">
+	<link rel="stylesheet" href="./assets/css/signup.css">
 </head>
 <body>
 	
    <div class="logo">
-   <a href="index.html"> <img width="100%" src="../Frontend/logos//BEAITIFY with icon.jpg" alt=""></a>
+   <a href="index.html"> <img width="100%" src="./logos/BEAITIFY with icon.jpg" alt=""></a>
    </div>
 	<div class="main">  	
 		<input type="checkbox" id="chk" aria-hidden="true">
@@ -99,7 +99,7 @@
 
   
         let register_request = await fetch(
-          "https://beautify-backend-yr50.onrender.com/mail/sendotp", 
+          "https://salon-prgm.onrender.com/mail/sendotp", 
           {
             method: "POST",
             headers: {
@@ -177,7 +177,7 @@ async function func(event) {
 
 
 
-    let register_request = await fetch("https://beautify-backend-yr50.onrender.com/login/login", {
+    let register_request = await fetch("https://salon-prgm.onrender.com/login/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
